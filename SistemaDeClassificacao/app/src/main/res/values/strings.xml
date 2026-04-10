@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SistemaDeClassificacao</string>
+    <string name="avalie_o_jogo_abaixo">Avalie o jogo abaixo:</string>
+    <string name="deixe_seu_voto">Deixe seu voto:</string>
+    <string name="status_label">Status:</string>
+    <string name="status_ruim">Ruim</string>
+    <string name="status_regular">Regular</string>
+    <string name="status_bom">Bom</string>
+    <string name="status_otimo">Ótimo</string>
+    <string name="status_excelente">Excelente</string>
+    <string name="status_espetacular">Espetacular</string>
+    <string name="ok">OK</string>
+    <string name="voltar">Voltar</string>
+    <string name="nome_jogo">Angry Birds</string>
+    <string name="nota_recebida">Nota recebida:</string>
+    <string name="resultado_votacao">Resultado da Votação</string>
+</resources>

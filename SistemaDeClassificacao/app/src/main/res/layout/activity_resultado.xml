@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Nome do jogo -->
+    <TextView
+        android:id="@+id/txtNomeJogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_jogo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_alignParentTop="true" />
+
+    <!-- Imagem do jogo -->
+    <ImageView
+        android:id="@+id/imagemResultado"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/jogo_angry_birds"
+        android:contentDescription="@string/nome_jogo"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/txtNomeJogo"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- "Nota recebida:" -->
+    <TextView
+        android:id="@+id/txtNotaRecebida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nota_recebida"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:layout_below="@+id/imagemResultado"
+        android:layout_marginTop="16dp" />
+
+    <!-- RatingBar (somente leitura) -->
+    <RatingBar
+        android:id="@+id/rtbResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="0"
+        android:isIndicator="true"
+        android:layout_below="@+id/txtNotaRecebida"
+        android:layout_marginTop="6dp" />
+
+    <!-- Classificação textual -->
+    <TextView
+        android:id="@+id/txtClassificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_ruim"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/status_ruim"
+        android:layout_below="@+id/rtbResultado"
+        android:layout_marginTop="10dp" />
+
+    <!-- Botão Voltar -->
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:layout_below="@+id/txtClassificacao"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SistemaDeClassificacao" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/action_bar_green</item>
+        <item name="colorPrimaryDark">@color/action_bar_green</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+</resources>
